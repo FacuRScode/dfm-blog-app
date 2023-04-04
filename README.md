@@ -25,3 +25,38 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Documentación
+
+## Diseño 
+
+Crea el diseño de la web, de cada pagina saca los componentes comunes y separados:
+6 Paginas: 1 Home, 2 Single category, 3 single post, 4 terms, 5 about, 6 contact
+3 Componentes comunes: 7 Header, 8 Navbar, 9 Footer
+3 componentes separados: 10 Suscription form, 11 comment form, 12 comment list
+
+## Crear la app y los componentes
+
+En la consola correr los comandos:
+ng new app-name
+cd app-name
+code . para entrar al IDE
+
+ng serve para correr la app
+Borrar el contenido del html de muestra (app.component.html) 
+
+Crear los componentes
+ng g c folder/component-name
+
+pages -> paginas
+layouts -> componentes comunes
+layouts -> componentes separados
+
+## Static: Routing  y navegación (Solo para el diseño)
+
+Dentro de app-routing-module.ts 
+En routes
+{ path: '', component: name-component },
+
+Escribe en el main html <router-outlet> y prueba las rutas
+
