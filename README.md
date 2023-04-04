@@ -60,3 +60,10 @@ En routes
 
 Escribe en el main html <router-outlet> y prueba las rutas
 
+## Bootstap
+
+npm i bootstrap
+Agregrlo a angular.json en css
+Volver a correr el serve
+ctrl C y ng serve
+
